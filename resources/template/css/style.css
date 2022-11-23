@@ -1,0 +1,211 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Acceuil css*/
+.AcceuilNav .navbar-expand-lg{
+    background-color: #1b1564;
+    box-shadow: 0px 2px 6px grey;
+}
+.AcceuilNav .nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.AcceuilNav .nav-link:hover{
+    color: #f15a24;
+}
+.RightProfil{
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px 0px 3px 3px ;
+    border-color: #1b1564;
+    background: ghostwhite;
+    border-radius: 20px 0px 0px 0px;
+}
+.col-md-4{
+    position: fixed;
+    right: 0px;
+}
+.blog-header{
+    padding: 20px;
+}
+.BtnEdit>button{
+    background-color: white;
+    font-size: 22px;
+    color: #f15a24;
+}
+.Annuler{
+    background-color: #1b1564;
+    color: whitesmoke;
+}
+.Save{
+    background-color: #f15a24;
+    color: whitesmoke;
+}
+.blog-body{
+    background: ghostwhite;
+    padding: 20px;
+}
+.blog-body .all{
+    margin-top: 10px;
+    text-size-adjust: 200px;
+}
+.Search{
+    margin: 20px;
+    height: auto;
+}
+.SearchBar{
+    width: 250px;
+    height: 30px;
+}
+textarea{
+    max-height: 100px;
+}
+.blog-footer{
+    margin: 15px;
+}
+.reaction .fa{
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #1b1564;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked + .fa{
+    color: #f15a24;
+}
+.blog{
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin-top:10px; 
+}
+.profil{
+    margin-top: 20px;
+    height: auto;
+}
+#commentaire{
+    width: 300px;
+    margin: 20px;
+}
+.SousCommentaire{
+    margin: 40px;
+    background-color: ghostwhite;
+}
+.InputSousCommentaire{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+/*truncate text*/
+
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+/*login css*/
+.LoginBody {
+    background-image: url("image/fond login.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.RetourAcceuil{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.RetourAcceuil a{
+    text-decoration: none;
+    color: #1b1564;
+}
+.RetourAcceuil a:hover{
+    text-decoration: none;
+    color: #f15a24;
+    border-bottom: 3px solid #1b1564 ;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.square{
+    border: 3px solid #1b1564;
+    border-radius: 0px 20px 20px 0px;
+    margin-top: 80px;
+    width: 350px;
+    padding: 15px;
+    background: white; 
+}
+.square :focus {
+    background-image: url();
+}
+.Connexion{
+    background-color:#1b1564;
+    color: white;
+}
+#link{
+    text-align:center;
+}
+
+.subscribe{
+    margin-top: 20px;
+}
+.subscribe .Inscription{
+    width: 200px;
+    font-size: 22px;
+    background-color: #f15a24;
+    color: white;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+
+/*inscription css*/
+
+.NavbarInscription{
+    background-color: white;
+}
+.NavbarInscription .nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1b1564;
+}
+
+.NavbarInscription .nav-link:hover{
+    color: #f15a24;
+    border-bottom: 2px solid #1b1564;
+}
+.FormulaireInscription .form-control{
+    width: 500px;
+}
+.ImageAnimation{
+    animation: manetsika 2s;
+}
+@keyframes manetsika{
+    20%{transform: rotate(8deg);}
+    40%{transform: rotate(-4deg);}
+    60%{transform: rotate(8deg);}
+    80%{transform: rotate(-4deg);}
+    84%{transform: rotate(6deg);}
+    88%{transform: rotate(-2deg)}
+    92%{transform: rotate(4deg)}
+    96%{transform: rotate(-1deg)}
+    97%{transform: rotate(1deg)}
+    98%{transform: rotate(-1deg)}
+    99%{transform: rotate(1deg)}
+    100%{transform: rotate(0deg);}
+}
+
+.sub {
+    margin-top: 20px;
+}
+.sub .Inscri{
+    background-color: #f15a24;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+
